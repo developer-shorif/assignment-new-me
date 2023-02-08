@@ -154,8 +154,7 @@ header p {
         url('images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
-
-
+    border-radius: 10px;
     margin-bottom: 130px;
     margin-left: 230px;
     margin-right: 230px;
@@ -175,7 +174,7 @@ header p {
     margin-bottom: 24px;
 }
 
-.call-now-btn {
+.secondary-btn {
 
     background-color: white;
     border: none;
@@ -190,7 +189,80 @@ header p {
 
 }
 
-.call-now-btn a {
+.secondary-btn a {
     text-decoration: none;
     color: #F15B22;
+}
+
+/* Footer section styles */
+
+footer {
+    background-color: #151414;
+}
+
+.footer-container {
+    display: flex;
+    margin: 0 230px;
+    justify-content: space-between;
+    background: #151414;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+}
+
+.footer-icon {
+    display: flex;
+    gap: 24px;
+}
+
+.future {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    font-style: normal;
+    margin-bottom: 16px;
+
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.subscribe {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+#email {
+    font-size: 18px;
+    line-height: 20px;
+    width: 300px;
+    font-style: normal;
+    color: #F3F3F3;
+    padding: 22px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    background-color: #f8f8f800;
+
+
 }
