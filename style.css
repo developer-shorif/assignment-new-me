@@ -117,6 +117,7 @@ header p {
     margin: 10px 230px;
     text-align: center;
     margin-bottom: 135px;
+
 }
 
 .plan-container img {
@@ -145,6 +146,36 @@ header p {
     font-weight: 500;
     color: #737272;
 
+}
+
+/* My Target Styles */
+
+.target-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+    margin: 10px 230px;
+    text-align: center;
+    margin-bottom: 135px;
+
+}
+
+.target-container img {
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.target-container p {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 25px;
 }
 
 /* Call now banner */
